@@ -1,6 +1,6 @@
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "https://www.qwq.work"
-    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
-    Access-Control-Allow-Headers = "Content-Type, Authorization"
+  for = "/"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "*"
